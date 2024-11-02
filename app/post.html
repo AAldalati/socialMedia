@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Post</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a Post</h1>
+        <form id="postForm">
+            <br><br><br><br><br><br>
+            <textarea id="postContent" placeholder="What's on your mind?" required></textarea><br><br>
+            <input type="file" id="postImage" accept="image/*"><br><br>
+            <button type="submit">Post</button><br>
+        </form>
+        <div id="gallery" class="gallery"></div>
+    </div>
+
+    <script src="post.js"></script>
+</body>
+</html>
